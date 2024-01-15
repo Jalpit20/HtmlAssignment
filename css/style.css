@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+.img1{
+     border-radius: 50%;
+     width: 30vw;
+     border: 20px solid #FFFFFF;
+}
+.img2{
+    width: 15vw;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FAFAFA;
+}
+.p1{
+    text-align: left;
+    font: normal normal 300 2em Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    font-size: 2.2rem;
+}
+.p2{
+    font-size: 1.5em;
+    font-family: roboto;
+}
+.s1{
+    text-align: left;
+    font: normal normal 900 40px/53px Roboto;
+    letter-spacing: 0px;
+    color: #C8242F;
+    opacity: 1; 
+}
+
+/*------------ Login container ------------*/
+
+.box-area{
+    width: 65vw;
+    
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+  
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 12px;
+    
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: auto;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+     .p1{
+        font-size: 25px;
+     }
+     .s1{
+        font-size: 25px;
+     }
+
+}
+html{
+    background-color: #FAFAFA;
+}
+.btn1{
+    top: 527px;
+    left: 906px;
+    width: 6em;
+    height: 35px;
+    /* UI Properties */
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    color: #FAFAFA;
+    
+    
+    
+}
+.tx1{
+    color: #ADADAD;
+    float: right;
+    
+}
+.tx2{
+    color: #C8242F;
+}
+.in1{
+    background-color: #FFFFFF;
+}
+.input-group{
+    width:80%;
+}
+.r1{
+    width:80%;
+}

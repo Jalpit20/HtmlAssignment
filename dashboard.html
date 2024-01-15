@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Header with Images</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid mt-1">
+        <div class="row">
+            <!-- Images at the beginning -->
+            <div class="col">
+                <a class="navbar-brand" href="#">
+                    <img src="images/menu-bar.svg" height="23" class="custom-img">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" class="custom-img">
+                </a>
+
+                <img src="images/search-icon.svg" height="23" class="custom-img"> <span> search</span>
+
+            </div>
+
+            <!-- Images at the end -->
+            <div class="col text-right">
+                <a class="navbar-brand img3" href="#">
+                    <img src="images/notification-icon.svg" height="23" class="custom-img">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/profile.png" height="23" class="custom-img"> <span>John doe</span>
+                </a>
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/select-downward.svg" height="23" class="custom-img">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container con pt-3 mt-2 mr-2">
+
+        <nav class="navbar">
+
+            <a class="navbar-brand navd pl-1 pr-3 m-1" href="#">
+                <img src="images/dashboard-active.svg" height="23"> Dashboard
+            </a>
+            <a class="navbar-brand nav pl-1 pr-3 m-1" href="#">
+                <img src="images/graph-default.svg" height="23"> Analysis
+            </a>
+            <a class="navbar-brand nav pl-1 pr-3 m-1" href="#">
+                <img src="images/inbox-default.svg" height="23"> Inbox
+            </a>
+            <a class="navbar-brand nav pl-1 pr-3 m-1" href="#">
+                <img src="images/clock-default.svg" height="23"> History
+            </a>
+            <a class="navbar-brand nav pl-1 pr-3 m-1" href="#">
+                <img src="images/user-default.svg" height="23"> users
+            </a>
+            <a class="navbar-brand nav pl-1 pr-3 m-1" href="#">
+                <img src="images/maintenance-default.svg" height="23"> Maintenence
+            </a>
+            <a class="navbar-brand nav pl-1 pr-3 m-1" href="#">
+                <img src="images/setting-default.svg" height="23"> setting
+            </a>
+
+        </nav>
+    </div>
+    <div class="con3 mt-3 ml-1">
+
+        <div class="container-fluid bg-light">
+            <h3 class="pt-3 pl-3">Dashboard</h3>
+            <div class="row justify-content-between mx-3 con4">
+                <div class="col mx-3 my-4 d-flex bg-white align-items-center px-4 rounded">
+                    <div class="logo d-flex align-items-center">
+                        <img src="/images/star.svg">
+                    </div>
+                    <div class="numbers d-flex align-items-center justify-content-center flex-column ">
+                        <p class="numb pt-3">25,346</p>
+                        <p>New Products</p>
+                    </div>
+                </div>
+                <div class="col mx-3 my-4 d-flex bg-white align-items-center px-4 rounded">
+                    <div class="logo d-flex align-items-center mx-2">
+                        <img src="/images/new-product.svg">
+                    </div>
+                    <div class="numbers d-flex align-items-center justify-content-center flex-column ">
+                        <p class="numb pt-3">2345</p>
+                        <p>New Products</p>
+                    </div>
+                </div>
+                <div class="col mx-3 my-4 d-flex bg-white align-items-center px-4  rounded">
+                    <div class="logo d-flex align-items-center mx-2">
+                        <img src="/images/new-product.svg">
+                    </div>
+                    <div class="numbers d-flex align-items-center justify-content-center flex-column ">
+                        <p class="numb pt-3">32,456</p>
+                        <p>New Products</p>
+                    </div>
+                </div>
+                <div class="col mx-3 my-4 d-flex bg-white  px-4  rounded">
+                    <div class="logo d-flex align-items-center mx-2">
+                        <img src="/images/dollar-filled.svg">
+                    </div>
+                    <div class="numbers d-flex align-items-center justify-content-center flex-column">
+                        <p class="numb pt-3">5678</p>
+                        <p>New Products</p>
+                    </div>
+                </div>
+                <div class="col mx-3 my-4 d-flex bg-white align-items-center px-4  rounded">
+                    <div class="logo d-flex align-items-center mx-2">
+                        <img src="/images/money-bag.svg">
+                    </div>
+                    <div class="numbers d-flex align-items-center justify-content-center flex-column ">
+                        <p class="numb pt-3">33,5342</p>
+                        <p>New Products</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row ml-4 ">
+                <div class="col-8 p-8 m-2  bg-white">
+                    <div class="row px-3 py-3">
+                        <div class="col d-flex ">
+                            <div>
+                                <p class="m-0 p-0 roboto-medium-22 sale" id="sale">Sale</p>
+                            </div>
+                            <div class="col text-right">
+                                <span class="m-0 p-1 roboto-regular-12">Weekly</span>
+                                <span class="m-0 p-1 roboto-regular-12">Monthly</span>
+                                <span class="m-0 p-1 roboto-regular-12" id="yearly">Yearly</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img id="data-graph" class="img-fluid ml-4 mt-4" src="images/data-graph.png">
+                    </div>
+
+
+                </div>
+                <div class="col-3 ml-4 mt-2 pl-4 pr-3 bg-white">
+                    <div>
+                        <div>
+                            <p class="m-0 p-0 py-1 roboto-medium-22" id="sale">Sales by Country</p>
+                        </div>
+                        <div>
+                            <img class="rounded mx-auto d-block" src="images/pie-chart.svg">
+                        </div>
+                        <div class="container-fluid m-2">
+                            <div class="row ">
+                                <div class="col-6 "><span class="dotred"></span> <span>United States of America</span>
+                                </div>
+                                <div class="col-6"><span class="dotgreen"></span><span>Canada</span></div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-6"><span class="dotorange"></span><span>Russia</span></div>
+                                <div class="col-6"><span class="dotyellow"></span><span>India</span></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mx-4 p-8 my-4 bg-white contble">
+                <div class="row px-4 pt-4">
+                    <p class="col invoice ml-2">Invoice</p>
+                    <span class="col text-right viewall">view all</span>
+                </div>
+
+
+
+
+                <div class="row">
+                    <table class="table mx-4 my-4 px-4 py-3">
+                        <thead class="heder">
+                            <tr>
+                                <th scope="col" class="heder">Invoice</th>
+                                <th scope="col" class="heder">COMPANY NAME</th>
+                                <th scope="col" class="heder">EMAIL</th>
+                                <th scope="col" class="heder">DUE DATE</th>
+                                <th scope="col" class="heder">STATUS</th>
+                                <th scope="col" class="heder">AMOUNT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="body">
+                            <tr>
+                                <td>651535</td>
+                                <td>Public Adjusting Firm</td>
+                                <td>georgia.young@example.com</td>
+                                <td>24 May, 2020</td>
+                                <td class="paid">Paid</td>
+                                <td>$47,800</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">558612</td>
+                                <td>Other</td>
+                                <td>jessica.hanson@example.com</td>
+                                <td>24 May, 2020</td>
+                                <td class="paid">Paid</td>
+                                <td>$98,000</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">558612</td>
+                                <td>Vendor</td>
+                                <td>alma.lawson@example.com</td>
+                                <td>8 Sep, 2020</td>
+                                <td class="paid">Paid</td>
+                                <td>$20,900</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">558612</td>
+                                <td>Property Management Company</td>
+                                <td>kenzi.lawson@example.com</td>
+                                <td>22 Oct, 2020</td>
+                                <td class="paid">Paid</td>
+                                <td>$10,570</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">651535</td>
+                                <td>Subcontractor Company</td>
+                                <td>jackson.graham@example.com</td>
+                                <td>1 Feb, 2020</td>
+                                <td class="failed">Failed</td>
+                                <td>$10,200</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">653518</td>
+                                <td>Mortgage Company</td>
+                                <td>felicia.reid@example.com</td>
+                                <td>22 Oct, 2020</td>
+                                <td class="pending">Pending</td>
+                                <td>$12,600</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">487441</td>
+                                <td>TPA</td>
+                                <td>dolores.chambers@example.com</td>
+                                <td>21 Sep, 2020</td>
+                                <td class="paid">Paid</td>
+                                <td>$11,170</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">$11,170</td>
+                                <td>Fire Department</td>
+                                <td>nevaeh.simmons@example.com</td>
+                                <td>17 Oct, 2020</td>
+                                <td class="failed">Failed</td>
+                                <td>$28,000</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">449003</td>
+                                <td>Insurance Carrier</td>
+                                <td>curtis.weaver@example.com</td>
+                                <td>21 Sep, 2020</td>
+                                <td class="paid">Paid</td>
+                                <td>$10,000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Bootstrap JS and dependencies -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
